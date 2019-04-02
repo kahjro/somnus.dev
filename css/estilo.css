@@ -2,46 +2,39 @@
 
 body{
 
-    background-color: aliceblue;
+    background-color: rgb(118, 122, 126);
 }
 
 h1{    
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20pt;
-    color: blueviolet;
-    text-shadow: 2px 2px 30px blue;
+    color: rgb(22, 22, 22);
+    text-shadow: 2px 2px 30px rgb(31, 31, 54);
 }
 
 h3{
-    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-family: 'Bradley Hand ITC', cursive;
     font-size: 50pt;
-    color: pink;
-    text-shadow: 2px 2px 30px red;
+    color: rgb(32, 31, 31);
+    text-shadow: 2px 2px 30px rgb(228, 220, 220);
 }
 
 h2{
-    font-family: 'Comic Sans MS', cursive, sans-serif;
-    font-size: 15pt;
-    color: pink;
-    text-shadow: 2px 2px 10px red;
+    font-family: 'Bradley Hand ITC', cursive;
+    font-size: 20pt;
+    color: rgb(32, 31, 31);
+    text-shadow: 2px 2px 10px rgb(228, 220, 220);
 }
 
 #foto{
     width: 1000px;
-
-    margin: 0px auto;
-
-}
-
-p{
-
-    text-align: center;
 }
 
 figure.imgborda{
     position: relative;
+    left:350px;
     border: 8px solid white ;
-    width: 50%;
+    width: 40%;
     box-shadow: 1px 1px 4px black;
 
 }
@@ -66,4 +59,73 @@ figure.imgborda figcaption{
 
 figure.imgborda:hover figcaption{
     opacity: 1;
+}
+
+nav#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: relative;
+
+}
+
+nav#menu li{
+    display: inline-block;
+    background-color: #d6d1d1;
+    border: 2px solid #9c9797 ;
+    box-shadow: 1px 1px 4px black;
+    padding: 10px;
+    margin: 2px;
+    transition: background-color 0.5s;
+
+}
+
+nav#menu li:hover{
+    background-color: #8a8686;
+
+}
+
+nav#menu{
+    display: block;
+
+}
+
+nav#menu h2{
+    display: none;
+
+}
+
+nav#menu a{
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    text-decoration: none;
+
+}
+
+nav#menu a:hover{
+    color: white;
+}
+
+
+
+#top{
+    text-align: center;
+}
+
+div#interface{
+
+    width: 1200px;
+    background-color: #888686;
+    margin: -20px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.4);
+    padding: 10px;
+
+}
+
+div#foto img#guigui{
+
+    position: relative;
+
+
+
+
 }
