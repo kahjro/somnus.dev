@@ -121,11 +121,11 @@ div#interface{
 
 }
 
-div#foto img#guigui{
-
-    position: relative;
+div#top p{
 
 
+    font-size: 18pt;
+    text-shadow: 2px 2px 10px rgb(228, 220, 220);
 
 
 }
