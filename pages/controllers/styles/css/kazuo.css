@@ -1,0 +1,86 @@
+@charset "UTF-8";
+    body {
+		margin: 0;
+		padding: 0;
+    }
+    :root {
+		--web-view-ids: kazuo;
+	}
+	#kazuo * {
+		margin: 0;
+		padding: 0;
+	}
+	#kazuo {
+		background: #E5E5E5;
+		min-height: 100%;
+		min-width: 1024px;
+		width: 100%;
+		height: auto;
+		position: fixed;
+		top: 0;
+		left: 0;
+		background-color: rgba(30,32,25,1);
+		overflow: hidden;
+		margin: 0;
+		padding: 0;
+		opacity: 1;
+	}
+	#Retangulo {
+		opacity: 1;
+		fill: rgba(88,123,127,1);
+		position: absolute;
+		overflow: visible;
+		min-width: 1024px;
+		width: 100%;
+		height: 129px;
+		left: 0px;
+		top: 0px;
+	}
+
+	#headerText {
+		opacity: 1;
+		position: absolute;
+		left: 50px;
+		top: 235px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 1029px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: url(https://use.typekit.net/ffj1pqs.css%22%3E);
+		font-style: normal;
+		font-weight: bold;
+		font-size: 40px;
+		color: rgba(226,192,68,1);
+	}
+	#fotokazuo {
+		opacity: 1;
+		position: absolute;
+		overflow: visible;
+		border-radius: 10px;
+		width: 300px;
+		height: 300px;
+		left: 1006px;
+		top: 150px;
+	}
+	#normalText {
+		opacity: 1;
+		position: absolute;
+		text-align-last: center;
+		left: 1006px;
+		top: 450px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 153px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: url(https://use.typekit.net/ffj1pqs.css%22%3E);
+		font-style: normal;
+		font-weight: bold;
+		font-size: 30px;
+		color: rgba(226,192,68,1);
+	}
