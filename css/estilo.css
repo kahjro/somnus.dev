@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+body{
+
+    background-color: aliceblue;
+}
+
+h1{    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+    color: blueviolet;
+    text-shadow: 2px 2px 30px blue;
+}
+
+h3{
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 50pt;
+    color: pink;
+    text-shadow: 2px 2px 30px red;
+}
+
+h2{
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 15pt;
+    color: pink;
+    text-shadow: 2px 2px 10px red;
+}
+
+figure.imgborda{
+    position: relative;
+    border: 8px solid white ;
+    box-shadow: 1px 1px 4px black;
+
+}
+
+figure.imgborda img{
+    width: 100%;
+    height: 100%;
+
+}
+
+figure.imgborda figcaption{
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0,0,0,0.4);
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: opacity 1s;
+}
+
+figure.imgborda:hover figcaption{
+    opacity: 1;
+}
