@@ -1,86 +1,141 @@
-@charset "UTF-8";
-    body {
-		margin: 0;
-		padding: 0;
-    }
-    :root {
-		--web-view-ids: kazuo;
-	}
-	#kazuo * {
-		margin: 0;
-		padding: 0;
-	}
-	#kazuo {
-		background: #E5E5E5;
-		min-height: 100%;
-		min-width: 1024px;
-		width: 100%;
-		height: auto;
-		position: fixed;
-		top: 0;
-		left: 0;
-		background-color: rgba(30,32,25,1);
-		overflow: hidden;
-		margin: 0;
-		padding: 0;
-		opacity: 1;
-	}
-	#Retangulo {
-		opacity: 1;
-		fill: rgba(88,123,127,1);
-		position: absolute;
-		overflow: visible;
-		min-width: 1024px;
-		width: 100%;
-		height: 129px;
-		left: 0px;
-		top: 0px;
-	}
+@import url(https://fonts.googleapis.com/css?family=Nunito);
 
-	#headerText {
-		opacity: 1;
-		position: absolute;
-		left: 50px;
-		top: 235px;
-		box-sizing: border-box;
-		margin: 0;
-		padding: 0;
-		overflow: visible;
-		width: 1029px;
-		white-space: nowrap;
-		text-align: left;
-		font-family: url(https://use.typekit.net/ffj1pqs.css%22%3E);
-		font-style: normal;
-		font-weight: bold;
-		font-size: 40px;
-		color: rgba(226,192,68,1);
-	}
-	#fotokazuo {
-		opacity: 1;
-		position: absolute;
-		overflow: visible;
-		border-radius: 10px;
-		width: 300px;
-		height: 300px;
-		left: 1006px;
-		top: 150px;
-	}
-	#normalText {
-		opacity: 1;
-		position: absolute;
-		text-align-last: center;
-		left: 1006px;
-		top: 450px;
-		box-sizing: border-box;
-		margin: 0;
-		padding: 0;
-		overflow: visible;
-		width: 153px;
-		white-space: nowrap;
-		text-align: left;
-		font-family: url(https://use.typekit.net/ffj1pqs.css%22%3E);
-		font-style: normal;
-		font-weight: bold;
-		font-size: 30px;
-		color: rgba(226,192,68,1);
-	}
+html {
+  height: 100%;
+  overflow: hidden;
+}
+
+body { 
+  margin:0;
+  padding:0;
+	perspective: 1px;
+	transform-style: preserve-3d;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+h1 {
+    opacity: 1;
+    position: absolute;
+    align-content: center;
+    box-sizing: border-box;
+    left: -45px;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    width: 1029px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: url(https://use.typekit.net/ffj1pqs.css%22%3E);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+}
+
+.slide {
+  position: relative;
+  padding: 25vh 10%;
+  min-height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  box-shadow: 0 -1px 10px rgba(0, 0, 0, .7);
+	transform-style: inherit;
+}
+
+img {
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  width: 270px;
+  height: 270px;
+  transform: translateZ(.25px) scale(.75) translateX(-94%) translateY(-100%) rotate(2deg);
+  padding: 10px;
+  border-radius: 5px;
+  background: rgba(240,230,220, .7);
+  box-shadow: 0 0 8px rgba(0, 0, 0, .7);
+}
+
+img:last-of-type {
+  transform: translateZ(.4px) scale(.6) translateX(-104%) translateY(-40%) rotate(-5deg);
+}
+
+.slide:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0 0 8px 1px rgba(0, 0, 0, .7);
+}
+
+.title {
+  width: 50%;
+  padding: 5%;
+  border-radius: 5px;
+  background: rgba(240,230,220, .7);
+}
+
+.slide:nth-child(2n) .title {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.slide:nth-child(2n+1) .title {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.slide, .slide:before {
+  background: 50% 50% / cover;  
+}
+
+#title {
+  background-image: url(../images/background.png);
+  filter: grayscale(40%);
+  z-index:2;
+}
+
+#title h1 {
+ transform: translateZ(.25px) scale(.75);
+ transform-origin: 50% 100%;
+}
+
+#slide1:before {
+    background: teal;
+  transform: translateZ(-1px) scale(2);
+}
+
+#slide2 {
+    background: teal;
+  z-index:2;
+}
+
+#slide3:before {
+    background: teal;
+  transform: translateZ(-1px) scale(2);
+}
+
+#slide4 {
+  background: #222;
+}
+
+#footerCustom {
+    color: aliceblue;
+    bottom: 100px;
+}
+
+#footerText {
+    color: aliceblue;
+    bottom: 0px;
+}
+
+#end {
+    color: aliceblue;
+    font-size: 75px;
+    bottom: 200px;
+    font-style: normal;
+    font-weight: bold;
+}

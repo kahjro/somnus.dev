@@ -188,7 +188,7 @@ div#mid p{
 }
 
 table#tabela{
-    border: 1.2px solid black;
+    border: 1.2px solid rgb(88, 123, 127);
     border-spacing: 0px;
     background-color: rgb(192, 187, 187);
     margin-left: 10px;
@@ -197,7 +197,7 @@ table#tabela{
 
 table#tabela td{
     font-family: 'Gibson';
-    border: 1.2px solid black;
+    border: 1.2px solid rgb(88, 123, 127);
     padding: 5px;
     text-align: left;
     vertical-align: center;
