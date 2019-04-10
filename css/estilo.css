@@ -235,6 +235,12 @@ div#midmid {
 
 }
 
+div#midmid a{
+
+    text-decoration: none;
+
+}
+
 div#tabfoto{
 
     border: 1.5px solid black;
