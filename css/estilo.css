@@ -14,7 +14,7 @@
 
 body{
 
-    background-color: rgb(118, 122, 126);
+    background-color: rgb(125, 140, 161);
 }
 
 p{
@@ -85,7 +85,7 @@ nav#menu h2{
 
 nav#menu a{
 
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Gibson';
     color: black;
     text-decoration: none;
 }
@@ -191,8 +191,10 @@ table#tabela{
     border: 1.2px solid rgb(88, 123, 127);
     border-spacing: 0px;
     background-color: rgb(228, 224, 224);
-    margin-left: 50px;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 8px;
+    text-align: center;
 }
 
 table#tabela td{
@@ -208,7 +210,9 @@ caption#cap{
     margin-right: 80px;
     padding: 5px;
     font-size: 20pt;
+    text-align: center;
 }
+
 
 img#fotosgk{
 
@@ -241,7 +245,7 @@ div#tabfoto{
     padding: 10px;
     margin-left: 5px;
     margin-right: 9px;
-
+    text-align: center;
 
 
 }
@@ -360,5 +364,27 @@ div#lado p{
     background-color: rgba(0,0,0,0.4);
     border-radius: 10px;
 
+
+}
+
+img#fotosca{
+
+    width: 200px;
+    border: 8px solid white;
+    box-shadow: 1px 1px 4px black;
+
+}
+
+div#tabfoto h4{
+
+    color: black;
+    font-family: 'Gibson';
+    margin-right: 80px;
+    padding: 5px;
+    font-size: 20pt;
+    text-align: center;
+    margin-left: 70px;
+    margin-top: 5px;
+    margin-bottom: 0px;
 
 }
