@@ -399,3 +399,17 @@ div#tabfotoca{
 
 
 }
+
+div#tabfotoca h4{
+
+    color: black;
+    font-family: 'Gibson';
+    margin-right: 80px;
+    padding: 5px;
+    font-size: 20pt;
+    text-align: center;
+    margin-left: 70px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+
+}
