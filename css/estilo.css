@@ -1,24 +1,19 @@
 @charset "UTF-8";
-@font-face{
-
+@font-face {
     font-family: 'FonteLogo';
     src: url('../fonts/RobotoMono-Light.ttf');
 }
-@font-face{
 
+@font-face {
     font-family: 'Gibson';
     src: url('../fonts/Gibson-Regular.ttf');
-
 }
 
-
-body{
-
+body {
     background-color: rgb(125, 140, 161);
 }
 
-p{
-
+p {
     font-family: 'Gibson';
     font-weight: 600;
     font-size: 15pt;
@@ -26,76 +21,66 @@ p{
     text-shadow: #888686;
 }
 
-h1{ 
-
+h1 {
     font-family: 'FonteLogo';
     font-size: 20pt;
     color: rgb(233, 231, 231);
     text-shadow: 2px 2px 30px rgb(31, 31, 54);
 }
 
-h3{
-
+h3 {
     font-family: 'Bradley Hand ITC', cursive;
     font-size: 20pt;
     color: rgb(255, 255, 255);
     text-shadow: 2px 2px 30px rgb(12, 12, 12);
 }
 
-h2{
-
+h2 {
     font-family: 'Bradley Hand ITC', cursive;
     font-size: 20pt;
     color: rgb(233, 231, 231);
     text-shadow: 2px 2px 10px rgb(197, 194, 194);
 }
 
-nav#menu ul{
-
+nav#menu ul {
     list-style: none;
     text-transform: uppercase;
     position: relative;
 }
 
-nav#menu li{
-
+nav#menu li {
     display: inline-block;
     background-color: #d6d1d1;
-    border: 2px solid #9c9797 ;
+    border: 2px solid #9c9797;
     box-shadow: 1px 1px 5px rgb(163, 161, 161);
     padding: 10px;
     margin: 2px;
     transition: background-color 0.5s;
 }
 
-nav#menu li:hover{
-
+nav#menu li:hover {
     background-color: #8a8686;
 }
 
-nav#menu{
-
+nav#menu {
     display: block;
 }
 
-nav#menu h2{
-
+nav#menu h2 {
     display: none;
 }
 
-nav#menu a{
-
+nav#menu a {
     font-family: 'Gibson';
     color: black;
     text-decoration: none;
 }
 
-nav#menu a:hover{
+nav#menu a:hover {
     color: white;
 }
 
-section#corpo{
-    
+section#corpo {
     display: block;
     width: 650px;
     float: left;
@@ -103,42 +88,34 @@ section#corpo{
     padding-right: 15px;
 }
 
-
-footer#rodape{
-
+footer#rodape {
     clear: both;
     border-top: 1px solid black;
 }
 
-footer#rodape p{
-
+footer#rodape p {
     text-align: center;
     font-family: 'Times New Roman';
 }
 
-#top{
-
+#top {
     text-align: center;
 }
 
-div#interface{
-
+div#interface {
     width: 1200px;
-    background-color: #888686;
+    background-color: #c2b8ad;
     margin: -20px auto 0px auto;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.4);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
     padding: 10px;
-
 }
 
-div#foto p{
-
+div#foto p {
     font-size: 18pt;
     text-shadow: 2px 2px 10px rgb(228, 220, 220);
 }
 
-header#cabecalho{
-
+header#cabecalho {
     border-bottom: 1px black solid;
     height: 250px;
     padding: 20px;
@@ -147,10 +124,8 @@ header#cabecalho{
     background-blend-mode: multiply;
 }
 
-div#mid{
-
-    
-    background-color: rgb(116, 111, 111);
+div#mid {
+    background-color: rgb(139, 143, 180);
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 10px;
@@ -163,8 +138,7 @@ div#mid{
     box-shadow: 0px 0px 5px black;
 }
 
-div#mid h1{
-    
+div#mid h1 {
     color: black;
     font-family: 'Gibson';
     background-color: #8a8a8a;
@@ -177,16 +151,13 @@ div#mid h1{
     border: 3px solid rgb(214, 210, 210);
 }
 
-div#mid p{
-
+div#mid p {
     color: rgb(80, 77, 77);
     margin-left: 3px;
-
-
 }
 
-table#tabela{
-    border: 1.2px solid rgb(88, 123, 127);
+table#tabela {
+    border: 1.2px solid rgb(73, 71, 141);
     border-spacing: 0px;
     background-color: rgb(228, 224, 224);
     margin-left: auto;
@@ -195,15 +166,15 @@ table#tabela{
     text-align: center;
 }
 
-table#tabela td{
+table#tabela td {
     font-family: 'Gibson';
-    border: 1.2px solid rgb(88, 123, 127);
+    border: 1.2px solid rgb(73, 71, 141);
     padding: 5px;
     text-align: left;
     vertical-align: center;
 }
 
-caption#cap{
+caption#cap {
     font-family: 'Gibson';
     margin-right: 80px;
     padding: 5px;
@@ -211,9 +182,7 @@ caption#cap{
     text-align: center;
 }
 
-
-img#fotosgk{
-
+img#fotosgk {
     position: relative;
     left: 150px;
     width: 200px;
@@ -222,7 +191,6 @@ img#fotosgk{
 }
 
 div#midmid {
-    
     text-align: left;
     margin-top: -27px;
     padding-left: 5px;
@@ -231,34 +199,26 @@ div#midmid {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     background-color: rgb(214, 210, 210);
-
-
 }
 
-div#midmid a{
-
+div#midmid a {
     text-decoration: none;
-
 }
 
-div#tabfoto{
-
+div#tabfoto {
     border: 1.5px solid black;
     background-color: rgb(156, 156, 165);
     border-radius: 10px;
     padding: 10px;
     margin-left: 5px;
     margin-right: 9px;
-
-
-
 }
 
-article#apresentacao p{
+article#apresentacao p {
     color: #4e4d4d;
 }
 
-article#apresentacao h1{
+article#apresentacao h1 {
     position: relative;
     padding-top: 15px;
     font-size: 20pt;
@@ -266,7 +226,7 @@ article#apresentacao h1{
     padding-left: 10px;
 }
 
-div#autor{
+div#autor {
     margin-top: 0px;
     margin-bottom: 0px;
     position: relative;
@@ -277,17 +237,14 @@ div#autor{
     border-radius: 5px;
     margin-right: 395px;
     padding-left: 8px;
-
 }
 
-div#autor a{
-
+div#autor a {
     text-decoration: none;
     color: black;
 }
 
-img#zzz{
-
+img#zzz {
     position: relative;
     width: 70px;
     left: 520px;
@@ -296,24 +253,21 @@ img#zzz{
     margin-top: -30px;
 }
 
-div#titnot h2{
-
+div#titnot h2 {
     font-family: 'Arial';
     color: #474747;
     margin-top: 2px;
     margin-bottom: -35px;
-    text-shadow: 0px 0px 0px rgb(70, 70, 70);  
+    text-shadow: 0px 0px 0px rgb(70, 70, 70);
 }
 
-aside#lateral{
-
+aside#lateral {
     display: block;
     width: 520px;
     float: right;
 }
 
-div#lado{
-
+div#lado {
     background-color: rgb(134, 132, 146);
     margin: 10px 10px 10px 10px;
     padding-bottom: 7px;
@@ -321,11 +275,9 @@ div#lado{
     padding-right: 7px;
     padding-left: 7px;
     box-shadow: 2px 2px 5px rgb(73, 73, 73);
- 
 }
 
-div#lado h1{
-    
+div#lado h1 {
     position: relative;
     top: -6.61px;
     color: #c5c5c5;
@@ -333,54 +285,42 @@ div#lado h1{
     background-color: #585858;
     padding-top: 8px;
     padding-left: 8px;
-    padding-bottom: 8px; 
+    padding-bottom: 8px;
 }
 
-div#lado h2{
-    
+div#lado h2 {
     text-align: center;
     font-family: 'Gibson';
     color: rgb(233, 231, 231);
     background-color: #8a8a8a;
     border-radius: 5px;
-    border: 1px solid #c2c2c2; 
+    border: 1px solid #c2c2c2;
     text-shadow: none;
-    box-shadow: 0px 0px 1px rgba(0,0,0,0.4);
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.4);
     padding: 10px;
-    
 }
 
-img#discord{
-
+img#discord {
     width: 230px;
-
-
-
 }
 
-div#lado p{
-
+div#lado p {
     margin-bottom: 5px;
     text-align: center;
     font-family: 'Gibson';
     color: rgb(214, 207, 207);
     font-size: 20pt;
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0, 0, 0, 0.4);
     border-radius: 10px;
-
-
 }
 
-img#fotosca{
-
+img#fotosca {
     width: 200px;
     border: 8px solid white;
     box-shadow: 1px 1px 4px black;
-
 }
 
-div#tabfoto h4{
-
+div#tabfoto h4 {
     color: black;
     font-family: 'Gibson';
     margin-right: 80px;
@@ -390,11 +330,9 @@ div#tabfoto h4{
     margin-left: 70px;
     margin-top: 5px;
     margin-bottom: 0px;
-
 }
 
-div#tabfotoca{
-
+div#tabfotoca {
     border: 1.5px solid black;
     background-color: rgb(156, 156, 165);
     border-radius: 10px;
@@ -402,12 +340,9 @@ div#tabfotoca{
     margin-left: 5px;
     margin-right: 9px;
     text-align: center;
-
-
 }
 
-div#tabfotoca h4{
-
+div#tabfotoca h4 {
     color: black;
     font-family: 'Gibson';
     margin-right: 80px;
@@ -417,5 +352,4 @@ div#tabfotoca h4{
     margin-left: 70px;
     margin-top: 5px;
     margin-bottom: 0px;
-
 }
